@@ -1,10 +1,13 @@
 #form {
-    background-color: darkred;
+    background-color: orange;
     display: inline-block;
     width:320px;
     padding: 10px;
     position:absolute;
     left:calc((100% - 320px) / 2);
+    border-radius: 5px;
+    border: 2px double green;
+
 }
 #name-sub-form {
 
@@ -16,4 +19,7 @@
     display:inline-block;
     position:absolute;
     right: 5px;
+}
+#form-submit-button {
+    background-color: green;
 }
