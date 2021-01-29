@@ -15,8 +15,12 @@ const validate = function() {
     else if (phone.length!=10)
         msg="phone number must be 10 numbers";
     else
-        msg="all good";
-
+    {
+        document.getElementById("form").style.display="none"
+        let welcome = document.createElement("div");
+        welcome.innerHTML = "Welcome "+name;
+        document.getElementById("container").appendChild(welcome);
+    }
     form_msg.innerHTML=msg;
     form_msg.style.color = "Red"
 }

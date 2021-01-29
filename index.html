@@ -8,23 +8,25 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
-    <div id="form">
-        <div id=name-sub-form>
-            <div>Name</div>
-            <input type="text" id="name" placeholder="type your name here.." value="">
+    <div id="container">
+        <div id="form">
+            <div id=name-sub-form>
+                <div>Name</div>
+                <input type="text" id="name" placeholder="type your name here.." value="">
+            </div>
+            <div id="salary-sub-form">
+                <div>Desired Salary</div>
+                <input type="number" id="salary" placeholder="type salary here">
+            </div>
+            <div id="birthday-sub-form">
+                <div>Birthday</div>
+                <input type="date" id="birthday" >
+            </div>
+            <div >Phone</div>
+            <input type="tel" id="tel" >
+            <div id="form-message"></div>
+            <button id="form-submit-button" onclick="validate()">Submit</button>
         </div>
-        <div id="salary-sub-form">
-            <div>Desired Salary</div>
-            <input type="number" id="salary" placeholder="type salary here">
-        </div>
-        <div id="birthday-sub-form">
-            <div>Birthday</div>
-            <input type="date" id="birthday" >
-        </div>
-        <div >Phone</div>
-        <input type="tel" id="tel" >
-        <div id="form-message"></div>
-        <button id="form-submit-button" onclick="validate()">Submit</button>
     </div>
     <script src='main.js'></script>
 </body>
