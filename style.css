@@ -1,0 +1,19 @@
+#form {
+    background-color: darkred;
+    display: inline-block;
+    width:320px;
+    padding: 10px;
+    position:absolute;
+    left:calc((100% - 320px) / 2);
+}
+#name-sub-form {
+
+}
+#salary-sub-form {
+    display: inline-block;
+}
+#birthday-sub-form {
+    display:inline-block;
+    position:absolute;
+    right: 5px;
+}
